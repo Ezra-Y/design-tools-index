@@ -1,6 +1,7 @@
 ---
 name: design-tools-index
-description: 按用途分类的设计工具外部链接调度索引：高频类目（动画/配色/原型/handoff/design-to-code/图标/字体/渐变/插画/Mockup/UI/线框图）精选在前、按需读取 references；另覆盖无障碍/协作/设计系统/用户研究/3D 等 20+ 类目。Use when 需要找设计工具、配色工具、原型工具、图标库、字体、design handoff、design to code、UI 设计软件或任何设计相关外部资源时。
+description: >-
+  Categorized index of design tools by purpose — animation, color pickers, prototyping, design handoff, design-to-code, icons, fonts, gradients, illustration, mockup, UI design, wireframing, plus 20+ more categories. Use this skill whenever the user needs to pick a tool for a design task: choosing a color tool, prototyping tool, handoff tool, design-to-code converter, or any design software — even if they don't name a specific tool. Dispatcher: high-frequency categories inline, the rest in references/.
 ---
 
 # 设计工具索引
