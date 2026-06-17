@@ -22,9 +22,21 @@ There are 35+ categories of design tools. When a task needs "a color picker", "a
 
 ## What's inside
 
-Each entry is `Name (link) — one-line note`. 12 high-frequency categories in `SKILL.md`; the other 24 categories (accessibility, AR, collaboration, version control, etc.) in `references/more.md`.
+Each entry is `Name (link) — one-line note`. `SKILL.md` is a **dispatch index**: 2–3 top picks per category inline, with the full list in per-category reference files (loaded on demand):
 
-**In SKILL.md:** Animation · Color · Prototyping · Design Handoff · Design to Code · Icons · Fonts · Gradients · Illustrations · Mockup · UI Design · Wireframing
+- 🎨 Color → `references/color.md`
+- 🖼 Graphic assets (icons, fonts, illustrations…) → `references/graphic-assets.md`
+- 🖊 UI design & wireframing → `references/ui-and-wireframe.md`
+- 🎞 Prototyping & animation → `references/prototyping-and-animation.md`
+- 🔁 Handoff & design-to-code → `references/handoff-and-code.md`
+- 📱 Mockup → `references/mockup.md`
+- ♿ Accessibility → `references/accessibility.md`
+- 🔎 User research & information architecture → `references/user-research-and-ia.md`
+- 🤝 Collaboration, feedback & version control → `references/collaboration-feedback-vcs.md`
+- 🧩 Design systems & dev → `references/design-systems-and-dev.md`
+- 🎞 Media assets → `references/media-assets.md`
+- 💡 Creation & inspiration → `references/creation-and-inspiration.md`
+- 🧊 3D & AR → `references/3d-and-ar.md`
 
 ## Install
 
@@ -48,15 +60,27 @@ Recommend a few animation tools
 
 ```
 design-tools-index/
-├── SKILL.md              # 12 high-frequency categories (≤100 lines)
-├── references/
-│   └── more.md           # other 24 categories + extras
+├── SKILL.md              # dispatch index: 2-3 picks per category + pointers
+├── references/           # per-category full lists (loaded on demand)
+│   ├── color.md
+│   ├── graphic-assets.md
+│   ├── ui-and-wireframe.md
+│   ├── prototyping-and-animation.md
+│   ├── handoff-and-code.md
+│   ├── mockup.md
+│   ├── accessibility.md
+│   ├── user-research-and-ia.md
+│   ├── collaboration-feedback-vcs.md
+│   ├── design-systems-and-dev.md
+│   ├── media-assets.md
+│   ├── creation-and-inspiration.md
+│   └── 3d-and-ar.md
 └── README.md
 ```
 
 ## Sources & Attribution
 
-Curated and condensed from [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) (please star the original).
+Data sourced from [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) — the mega-list of design tools (originally maintained by Flawless App / Abstract) covering 35+ categories. This skill curates the high-frequency tool categories into `SKILL.md`'s dispatch index and groups the rest into per-category reference files. The original list is more complete and updated more often — please star the original repo.
 
 More awesome lists at [sindresorhus/awesome](https://github.com/sindresorhus/awesome).
 

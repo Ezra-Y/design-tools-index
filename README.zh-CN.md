@@ -22,9 +22,21 @@
 
 ## 内容
 
-每个条目为「名称（链接）— 一句话说明」。SKILL.md 收录 12 个高频类目；其余 24 类（无障碍、AR、协作、版本控制等）见 `references/more.md`。
+每个条目为「名称（链接）— 一句话说明」。`SKILL.md` 是**调度索引**：每类 2–3 条精选内联，完整列表在按分类的 reference 文件（按需读取 / loaded on demand）：
 
-**SKILL.md 中：** 动画 · 配色 · 原型 · 设计交付(Handoff) · Design to Code · 图标 · 字体 · 渐变 · 插画 · Mockup · UI 设计 · 线框图
+- 🎨 配色 → `references/color.md`
+- 🖼 图形素材（图标、字体、插画…）→ `references/graphic-assets.md`
+- 🖊 UI 设计与线框图 → `references/ui-and-wireframe.md`
+- 🎞 原型与动画 → `references/prototyping-and-animation.md`
+- 🔁 交付(Handoff)与 design-to-code → `references/handoff-and-code.md`
+- 📱 Mockup → `references/mockup.md`
+- ♿ 无障碍 → `references/accessibility.md`
+- 🔎 用户研究与信息架构 → `references/user-research-and-ia.md`
+- 🤝 协作、反馈与版本控制 → `references/collaboration-feedback-vcs.md`
+- 🧩 设计系统与开发 → `references/design-systems-and-dev.md`
+- 🎞 媒体素材 → `references/media-assets.md`
+- 💡 创作与灵感 → `references/creation-and-inspiration.md`
+- 🧊 3D 与 AR → `references/3d-and-ar.md`
 
 ## 安装
 
@@ -48,15 +60,27 @@ I need a tool to convert Figma to React code
 
 ```
 design-tools-index/
-├── SKILL.md              # 12 个高频类目索引（≤100 行）
-├── references/
-│   └── more.md           # 其余 24 类 + 主类目补充
+├── SKILL.md              # 调度索引：每类 2-3 精选 + 指针
+├── references/           # 按分类的完整列表（按需读取）
+│   ├── color.md
+│   ├── graphic-assets.md
+│   ├── ui-and-wireframe.md
+│   ├── prototyping-and-animation.md
+│   ├── handoff-and-code.md
+│   ├── mockup.md
+│   ├── accessibility.md
+│   ├── user-research-and-ia.md
+│   ├── collaboration-feedback-vcs.md
+│   ├── design-systems-and-dev.md
+│   ├── media-assets.md
+│   ├── creation-and-inspiration.md
+│   └── 3d-and-ar.md
 └── README.md
 ```
 
 ## 来源与致谢
 
-内容精选、精简自 [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools)（请给原仓库点 star）。
+本 skill 的数据来自 [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools)——设计工具大全（原由 Flawless App / Abstract 维护），原列表覆盖 35+ 类。本 skill 从中精选高频类目进入 `SKILL.md` 的调度索引，其余按类目分入各 reference 文件；原列表更全、更新更勤，建议给原仓库点 star。
 
 更多 awesome 列表见 [sindresorhus/awesome](https://github.com/sindresorhus/awesome)。
 
